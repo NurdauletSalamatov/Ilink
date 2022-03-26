@@ -1,0 +1,252 @@
+.App {
+  position: absolute;
+  padding-left: 80px;
+  padding-top: 93px;
+}
+
+.AppMain {
+  position: static;
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+  background-color: #6a5acd;
+}
+
+.AppText {
+  font-family: "Factor A TRIAL";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 124px;
+  line-height: 148px;
+  letter-spacing: -0.0124em;
+  color: #ffffff;
+}
+
+.Blog {
+  position: relative;
+  margin-top: 625px;
+  margin-left: 80px;
+  width: 519px;
+  height: 383px;
+}
+
+.About {
+  position: relative;
+  margin-left: 599px;
+  margin-top: -415px;
+  background: #ffffff;
+  border-radius: 2px;
+  width: 761px;
+  height: 383px;
+}
+
+.TextView {
+  width: 320px;
+  height: 32px;
+  left: 639px;
+  top: 633px;
+  font-family: "Factor A TRIAL";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: #585cc6;
+  margin-left: 40px;
+  padding-top: 40px;
+}
+
+.ImgButtons {
+  width: 12.05px;
+  height: 15px;
+  left: 4.75px;
+  top: 17.75px;
+}
+
+.TextPadding {
+  width: 111px;
+  height: 24px;
+  left: 639px;
+  top: 685px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  padding-top: 60px;
+  margin-left: 40px;
+  font-size: 18px;
+  font-weight: bolder;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #333333;
+}
+
+.TextViewP {
+  width: 111px;
+  height: 24px;
+  left: 639px;
+  top: 685px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  padding-top: 200px;
+  margin-left: 40px;
+  font-size: 18px;
+  font-weight: bolder;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #333333;
+}
+
+.TextAbout {
+  padding-top: 12px;
+  padding-left: 10px;
+  font-weight: 400;
+}
+
+.Vector {
+  position: absolute;
+  overflow: hidden;
+  height: 1610px;
+  width: 827.7271728515625px;
+  border-radius: 0px;
+  top: -116px;
+  left: 839px;
+}
+
+.Button {
+  border-radius: "4px";
+  background-color: burlywood;
+  border-radius: "groove";
+  margin-left: 50%;
+  margin-top: 50%;
+  border-image: url("./Components/logo.png");
+}
+
+.Buttons {
+  margin-top: 621px;
+  margin-left: 1232px;
+  width: 128px;
+  height: 56px;
+}
+
+.LowButtons {
+  height: 56px;
+  width: 56px;
+  border-radius: 2px;
+  position: absolute;
+  background: #ffffff;
+  border-radius: 2px;
+}
+
+.LowButtonsNext {
+  height: 56px;
+  width: 56px;
+  border-radius: 2px;
+  position: absolute;
+  background: #ffffff;
+  border-radius: 2px;
+  margin-left: 68px;
+}
+
+.AnswerButton {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 17px 28px;
+  height: 52px;
+  width: 220px;
+  left: 922px;
+  top: 1202px;
+  border-radius: 2px;
+  padding: 17px, 28px, 17px, 28px;
+  margin-left: 922px;
+  background: #585cc6;
+  border-radius: 2px;
+}
+
+.Block {
+  position: absolute;
+  width: 1198px;
+  height: 525px;
+  left: 0px;
+  margin-top: 152px;
+  background: #ffffff;
+  border-radius: 2px;
+}
+
+.LowTab {
+  position: relative;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #f5f5f5;
+  height: 64px;
+  border-radius: 0px;
+  margin-top: 106px;
+}
+
+.TextAnswer {
+  position: static;
+  width: 136px;
+  height: 18px;
+  left: 56px;
+  top: 17px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+
+.PlusButton {
+  position: absolute;
+  left: 11.11%;
+  right: 9.44%;
+  top: 11.11%;
+  bottom: 9.44%;
+
+  /* White #FFFFFF */
+
+  background: #ffffff;
+}
+
+.LowTabText {
+  position: absolute;
+  left: 5.56%;
+  right: 70.62%;
+  top: 37.5%;
+  bottom: 31.25%;
+  width: 400px;
+  height: 20px;
+
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #8a8a8a;
+}
+
+.LowFrame {
+  height: 24px;
+  width: 104px;
+  left: 1256px;
+  top: 20px;
+  border-radius: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  left: 87.22%;
+  right: 5.56%;
+  top: 31.25%;
+  bottom: 31.25%;
+}

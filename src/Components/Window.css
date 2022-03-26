@@ -1,0 +1,188 @@
+.Modal {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  left: 0%;
+  display: flex;
+  justify-content: center;
+  top: 0%;
+}
+
+.ModalContent {
+  position: relative;
+  padding: 20px;
+  background-color: white;
+  height: 443px;
+  width: 676px;
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  position: relative;
+  border-style: dashed;
+}
+
+.inputText {
+  position: absolute;
+  width: 110px;
+  height: 20px;
+  left: 24px;
+  top: 72px;
+  font-family: "Factor A TRIAL";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.0124em;
+  color: #333333;
+}
+
+.input {
+  position: absolute;
+  width: 395px;
+  height: 52px;
+  left: 0px;
+  top: 34px;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 2px;
+  border-style: dashed;
+}
+
+.inputButton {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 17px 28px;
+  position: absolute;
+  width: 217px;
+  height: 52px;
+  left: 435px;
+  top: 106px;
+  background: #585cc6;
+  border-radius: 2px;
+  border-style: dashed;
+}
+
+.inputTextLike {
+  position: absolute;
+  width: 191px;
+  height: 20px;
+  left: 24px;
+  top: 190px;
+  font-family: "Factor A TRIAL";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.0124em;
+  color: #333333;
+}
+
+.inputLike {
+  position: absolute;
+  width: 628px;
+  height: 105px;
+  left: 0px;
+  top: 32px;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 2px;
+  border-style: dashed;
+}
+
+.inputButtonLike {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 17px 28px;
+  position: absolute;
+  width: 203px;
+  height: 52px;
+  left: 24px;
+  top: 367px;
+  background: #585cc6;
+  border-radius: 2px;
+}
+
+.infoIMG {
+  position: absolute;
+  width: 15.42px;
+  height: 15.42px;
+  left: 245.29px;
+  top: 385.29px;
+}
+
+.SmallText {
+  position: absolute;
+  width: 293px;
+  height: 16px;
+  left: 271px;
+  top: 385px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #8a8a8a;
+}
+
+.textButtoninput {
+  position: static;
+  width: 133px;
+  height: 18px;
+  left: 56px;
+  top: 17px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+
+.TextButtonSubmit {
+  position: static;
+  width: 147px;
+  height: 18px;
+  left: 0px;
+  top: 17px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.TextH1 {
+  position: absolute;
+  width: 73px;
+  height: 28px;
+  left: 24px;
+  top: 24px;
+
+  font-family: "Factor A TRIAL";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height, or 117% */
+
+  letter-spacing: -0.0124em;
+
+  /* Main Text #333333 */
+
+  color: #333333;
+}

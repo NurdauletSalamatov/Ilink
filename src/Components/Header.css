@@ -1,0 +1,65 @@
+.navbar-brand {
+  font: 14px;
+}
+
+.navbar {
+  height: 108px;
+}
+
+.TextHeader {
+  text-decoration: none;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  margin-top: 10px;
+  color: black;
+}
+
+.TextButton {
+  text-decoration: none;
+  font-size: 12px;
+  margin-right: 80px;
+  color: #585cc6;
+  background-color: #585cc6;
+  border-radius: 2px;
+}
+
+.nav-pills {
+  text-decoration: none;
+  font-size: 12px;
+  margin-right: 80px;
+  color: #585cc6;
+  background-color: #585cc6;
+  border-radius: 2px;
+}
+
+.nav-link {
+  position: static;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  /* identical to box height, or 100% */
+
+  letter-spacing: 0.01em;
+
+  /* White #FFFFFF */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+
+.TextBorder {
+  height: 52px;
+  width: 52px;
+  margin-right: 10px;
+}

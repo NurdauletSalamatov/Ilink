@@ -1,0 +1,55 @@
+.TextH {
+  position: absolute;
+  width: 254px;
+  height: 88px;
+  margin-left: 80px;
+  margin-top: -18px;
+  font-family: "Factor A TRIAL";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 68px;
+  line-height: 88px;
+  letter-spacing: -0.0124em;
+  color: #333333;
+}
+
+.PlusButton {
+  position: relative;
+  left: 11.11%;
+  right: 9.44%;
+  top: 11.11%;
+  bottom: 9.44%;
+  background: #ffffff;
+}
+
+.TextAnswer {
+  position: static;
+  width: 136px;
+  height: 18px;
+  left: 56px;
+  top: 17px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+
+.AnswerButton {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 52px;
+  width: 220px;
+  border-radius: 2px;
+  padding: 17px, 28px, 17px, 28px;
+  margin-top: 56px;
+  background: #585cc6;
+  border-radius: 2px;
+}
